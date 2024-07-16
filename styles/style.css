@@ -1,0 +1,131 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* shared stle  */
+/* header style  */
+.first-container{
+    width: 1440px;
+    height: 3306px;
+    margin: 0 auto;
+}
+
+.badge{
+    width: 243px;
+    height: 52.2px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+    margin-top: 87px;
+    margin-left: 120px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    max-width: 463px;
+    height: 36px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-top:95px ;
+    margin-right: 121px;
+}
+/* title-container  */
+.title-container{
+    margin-top: 175px;
+    margin-left: 115px;
+}
+
+.start{
+    max-width: 582px;
+   max-height:133px;
+   font-size: 3.25rem;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+}
+
+.parg{
+    width: 505px;
+    height: 60.9px;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn{
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+}
+.container{
+    display: flex;
+}
+.bg-img-container{
+    margin-top: 50px;
+    margin-left:200px;
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: repeat;
+}
+
+.companys{
+margin: 0 auto;
+margin-top: 70px;
+margin-left: 165px;
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+margin-bottom: 100px;
+}
+
+
+.grid-container{
+    margin: 0 auto;
+    width: 1047px;
+    height: 1662px; 
+    border: 2px red solid;
+}
+.collection-title{
+margin: 5px 392px;
+    width: 262px;
+    height: 70px;
+    color: rgb(58, 58, 58);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.grid-title{
+    margin-left: 14px;
+}
+.box{
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.imges{
+    width: 300px;
+    height: 256px;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.menu-title{
+    font-size: 28px;
+    font-weight: 500;
+}
+.price{
+    font-size: 24px;
+font-weight: 400;
+}
+.wordwide{
+    color: rgb(120, 120, 133);
+font-size: 14px;
+font-weight: 700
+}
+.grid-template{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
